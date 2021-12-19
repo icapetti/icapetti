@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 ### Here is something about me
 
 ### Data Engineering projects
-- [News Crawler](https://github.com/icapetti/news-crawler)
+- [News Crawler - a Scrapy spider that crawls news and run in a Docker Container](https://github.com/icapetti/news-crawler)
 
 ### Challenges and tests
 - [Melhor Envio - Data Engineering challenge: ETL with Docker](https://github.com/icapetti/challenge-melhor-envio)
