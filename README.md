@@ -24,5 +24,5 @@ Here are some ideas to get you started:
 - [Data Engineering How Bootcamp](https://github.com/icapetti/data-engineering-how-bootcamp)
 
 ### Various
-[Smart River - System for monitoring the level of rivers](https://github.com/icapetti/tcc_arduino)
+- [Smart River - System for monitoring the level of rivers](https://github.com/icapetti/tcc_arduino)
 
