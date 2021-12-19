@@ -11,18 +11,18 @@ Here are some ideas to get you started:
 -->
 
 # Welcome!
-## Here is something about me
+### Here is something about me
 
-## Data Engineering projects
+### Data Engineering projects
 - [News Crawler](https://github.com/icapetti/news-crawler)
 
-## Challenges
+### Challenges and tests
 - [Melhor Envio - Data Engineering challenge: ETL with Docker](https://github.com/icapetti/challenge-melhor-envio)
 
-## Courses in progress or completed
+### Courses in progress or completed
 - [100 days of code: complete Python bootcamp!](https://github.com/icapetti/100-days-of-code-python-bootcamp)
 - [Data Engineering How Bootcamp](https://github.com/icapetti/data-engineering-how-bootcamp)
 
-## Various
+### Various
 [Smart River - System for monitoring the level of rivers](https://github.com/icapetti/tcc_arduino)
 
