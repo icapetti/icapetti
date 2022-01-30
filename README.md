@@ -14,18 +14,23 @@ Here are some ideas to get you started:
 ### Here is something about me
 
 ### Data Engineering projects
-- [News Crawler - a Scrapy spider that crawls news and run in a Docker Container](https://github.com/icapetti/news-crawler)
+- [News Crawler - a Scrapy spider that crawls news and run in a Docker Container](https://github.com/icapetti/news-crawler)<br>
+This crawler runs on a Docker container and extract textual data relating to news. The output of this crawler is particularly useful for researches with NLP, Computational Linguistics and Analytical intelligence with grouped texts. 
+The items crawled from the website are saved as jsonlines, compressed with gzip and send to a bucket on AWS.
+
 - [ANP Crawler - a Scrapy spider that crawls fuel prices](https://github.com/icapetti/anp-crawler)
 <br>This crawler extracts data from ANP research on fuels and has two quality layers implemented: 
-- Pipeline for data standardization
-- Validator and Monitor, using Spidermon, to validate if the data are in the defined structure and typing and monitor the 
+  - Pipeline for data standardization
+  - Validator and Monitor, using Spidermon, to validate if the data are in the defined structure and typing and monitor the 
   crawler statistics, such as minimum amount of extracted items, unwanted http status, errors, etc.
     
   If any validation and monitoring items encounter issues, an alert is sent to a monitoring channel in Slack.
   The extracted data is saved in a gzip-compressed jsonlines file and sent to an AWS S3 bucket.
 
 ### Challenges and tests
-- [Melhor Envio - Data Engineering challenge: ETL with Docker](https://github.com/icapetti/challenge-melhor-envio)
+- [Melhor Envio - Data Engineering challenge: ETL with Docker](https://github.com/icapetti/challenge-melhor-envio)<br>
+This project runs in a Docker container and read a zip file which contains a jsonline data, transforms and load to a MySQL database. 
+Then, extract data from this database with sql queries and generate a excel file report.
 
 ### Courses in progress or completed
 - [100 days of code: complete Python bootcamp!](https://github.com/icapetti/100-days-of-code-python-bootcamp)
