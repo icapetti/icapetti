@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 ### Data Engineering projects
 - [News Crawler - a Scrapy spider that crawls news and run in a Docker Container](https://github.com/icapetti/news-crawler)
 - [ANP Crawler - a Scrapy spider that crawls fuel prices](https://github.com/icapetti/anp-crawler)
-This crawler extracts data from ANP research on fuels and has two quality layers implemented: 
+<br>This crawler extracts data from ANP research on fuels and has two quality layers implemented: 
 - Pipeline for data standardization
 - Validator and Monitor, using Spidermon, to validate if the data are in the defined structure and typing and monitor the 
   crawler statistics, such as minimum amount of extracted items, unwanted http status, errors, etc.
@@ -33,7 +33,7 @@ This crawler extracts data from ANP research on fuels and has two quality layers
 
 ### Various
 - [Smart River - System for monitoring the level of rivers](https://github.com/icapetti/tcc_arduino)
-My college graduation capstone project: an android app for monitoring the level of rivers. 
+<br>My college graduation capstone project: an android app for monitoring the level of rivers. 
 The data is collected by sensors that communicate with a central through LoRa wireless technology, present on an Arduino MKR board. 
 The central, an ESP8266 board, consolidates the data and sends it to the database via Wi-Fi, which is finally accessed by the android application.
 
