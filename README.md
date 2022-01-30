@@ -15,7 +15,14 @@ Here are some ideas to get you started:
 
 ### Data Engineering projects
 - [News Crawler - a Scrapy spider that crawls news and run in a Docker Container](https://github.com/icapetti/news-crawler)
-- [ANP Crawler - a Scrapy spider that crawls fuel prices and uses Spidermon to validate data and monitoring crawler health](https://github.com/icapetti/anp-crawler)
+- [ANP Crawler - a Scrapy spider that crawls fuel prices](https://github.com/icapetti/anp-crawler)
+  - This crawler extracts data from ANP research on fuels and has two quality layers implemented: 
+    - Pipeline for data standardization
+    - Validator and Monitor, using Spidermon, to validate if the data are in the defined structure and typing and monitor the 
+    crawler statistics, such as minimum amount of extracted items, unwanted http status, errors, etc.
+    
+    If any validation and monitoring items encounter issues, an alert is sent to a monitoring channel in Slack.
+    The extracted data is saved in a gzip-compressed jsonlines file and sent to an AWS S3 bucket.
 
 ### Challenges and tests
 - [Melhor Envio - Data Engineering challenge: ETL with Docker](https://github.com/icapetti/challenge-melhor-envio)
