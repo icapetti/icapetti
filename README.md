@@ -21,10 +21,12 @@ The items crawled from the website are saved as jsonlines, compressed with gzip 
 - [ANP Crawler - a Scrapy spider that crawls fuel prices](https://github.com/icapetti/anp-crawler)
 <br>This crawler extracts data from ANP research on fuels and has two quality layers implemented: 
   - Pipeline for data standardization
-  - Validator and Monitor, using Spidermon, to validate if the data are in the defined structure and typing and monitor the 
-  crawler statistics, such as minimum amount of extracted items, unwanted http status, errors, etc.
+  - Validator to validate if the data are in the defined structure and typing
+  - Monitor for monitoring the crawler statistics, such as minimum amount of extracted items, unwanted http status, errors, etc.
+  - Alerts to a Slack channel if one or more monitors failed
+  - All this process run in a EC2 instance on AWS
+  - Circle CI is used to manage the deploy process from Github to the EC2 instance
     
-  If any validation and monitoring items encounter issues, an alert is sent to a monitoring channel in Slack.
   The extracted data is saved in a gzip-compressed jsonlines file and sent to an AWS S3 bucket.
 
 ### Challenges and tests
