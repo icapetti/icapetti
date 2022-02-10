@@ -17,8 +17,8 @@ Here are some ideas to get you started:
 #### Crawlers
 - [News Crawler - a Scrapy spider that crawls news and run in a Docker Container](https://github.com/icapetti/news-crawler)
 <br>Extract textual data relating to news. The output of this crawler is particularly useful for researches with NLP, Computational Linguistics and Analytical intelligence with grouped texts. 
-- Runs on a Docker container
-- The items crawled from the website are saved as jsonlines, compressed with gzip and send to a bucket on AWS.
+  - Runs on a Docker container
+  - The items crawled from the website are saved as jsonlines, compressed with gzip and send to a bucket on AWS.
 
 - [ANP Crawler - a Scrapy spider that crawls fuel prices](https://github.com/icapetti/anp-crawler)
 <br>This crawler extracts data from ANP research on fuels and has two quality layers implemented: 
