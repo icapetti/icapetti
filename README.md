@@ -39,6 +39,7 @@ Then, extract data from this database with sql queries and generate a excel file
 ### Courses in progress or completed
 - [100 days of code: complete Python bootcamp!](https://github.com/icapetti/100-days-of-code-python-bootcamp)
 - [Data Engineering How Bootcamp](https://github.com/icapetti/data-engineering-how-bootcamp)
+- [Advanced SQL: MySQL Data Analysis & Business Intelligence](https://github.com/icapetti/advanced-mysql-for-analysis-and-bi)
 
 ### Various
 - [Smart River - System for monitoring the level of rivers](https://github.com/icapetti/tcc_arduino)
