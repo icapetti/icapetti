@@ -37,7 +37,8 @@ This project runs in a Docker container and read a zip file which contains a jso
 Then, extract data from this database with sql queries and generate a excel file report.
 
 ### Courses in progress or completed
-- [Advanced SQL: MySQL Data Analysis & Business Intelligence](https://github.com/icapetti/advanced-mysql-for-analysis-and-bi)
+- #### [Advanced SQL: MySQL Data Analysis & Business Intelligence](https://github.com/icapetti/advanced-mysql-for-analysis-and-bi)
+Here I built an environment to practice the sql exercices proposed by the course, with docker compose to setup the Mysql Instance (the course database) and the Metabase instance (so I can run the queries over the Mysql database and build some analysis with charts and dashboards).
 - [100 days of code: complete Python bootcamp!](https://github.com/icapetti/100-days-of-code-python-bootcamp)
 - [Data Engineering How Bootcamp](https://github.com/icapetti/data-engineering-how-bootcamp)
 
