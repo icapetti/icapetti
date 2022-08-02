@@ -22,12 +22,9 @@ Here are some ideas to get you started:
 
 - [ANP Crawler - a Scrapy spider that crawls fuel prices](https://github.com/icapetti/anp-crawler)
 <br>This crawler extracts data from ANP research on fuels and has two quality layers implemented: 
-  - Pipeline for data standardization
-  - Validator to validate if the data are in the defined structure and typing
-  - Monitor for monitoring the crawler statistics, such as minimum amount of extracted items, unwanted http status, errors, etc.
+  - There is a Pipeline for data standardization, validate if the data are in the defined structure and typing, monitor the crawler statistics, such as minimum amount of extracted items, unwanted http status, errors, etc.
   - Alerts to a Slack channel if one or more monitors failed
-  - All this process run in a EC2 instance on AWS
-  - Circle CI is used to manage the deploy process from Github to the EC2 instance
+  - All this process run in a EC2 instance on AWS and Circle CI is used to manage the deploy process from Github to the EC2 instance
     
   The extracted data is saved in a gzip-compressed jsonlines file and sent to an AWS S3 bucket.
 
