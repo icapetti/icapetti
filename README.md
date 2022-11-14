@@ -28,11 +28,6 @@ Here are some ideas to get you started:
     
   The extracted data is saved in a gzip-compressed jsonlines file and sent to an AWS S3 bucket.
 
-### Challenges and tests
-- [Melhor Envio - Data Engineering challenge: ETL with Docker](https://github.com/icapetti/challenge-melhor-envio)<br>
-This project runs in a Docker container and read a zip file which contains a jsonline data, transforms and load to a MySQL database. 
-Then, extract data from this database with sql queries and generate a excel file report.
-
 ### Courses in progress or completed
 - #### [Advanced SQL: MySQL Data Analysis & Business Intelligence](https://github.com/icapetti/advanced-mysql-for-analysis-and-bi)
 Here I built an environment to practice the sql exercices proposed by the course, with docker compose to setup the Mysql Instance (the course database) and the Metabase instance (so I can run the queries over the Mysql database and build some analysis with charts and dashboards).
